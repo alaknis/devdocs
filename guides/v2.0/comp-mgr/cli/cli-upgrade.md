@@ -94,6 +94,9 @@ To prevent access to your store while it's being upgraded, put your store in mai
 6. Clean cache:
 
 		php bin/magento cache:clean
+6. Disable maintenance
+
+		php bin/magento maintenance:disable
 7.	Access your storefront.
 
 	The following error might display:
